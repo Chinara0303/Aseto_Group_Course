@@ -1,0 +1,100 @@
+:root {
+  /* color */
+
+  --primary-bg-color: #00fd54;
+  --primary-bg-hover: #00fd01;
+  --primary-bg-border: #00fd13;
+  --border-color:#e2e1e1a8;
+  --dark-body: rgb(23, 22, 20);
+  --dark-theme: rgb(23, 23, 23, 1) ;
+  --dark-border: rgba(23, 22, 20, 0.6);
+  --dark-bg: rgb(28 30 34);
+  --dark-shadow: rgba(23, 22, 20, 0.6);
+
+  --primary-05: rgba(0, 253, 84, 0.05);
+  --primary-1: rgba(0, 253, 84, 0.1);
+  --primary-2: rgba(0, 253, 84, 0.2);
+  --primary-3: rgba(0, 253, 84, 0.3);
+  --primary-4: rgba(0, 253, 84, 0.4);
+  --primary-5: rgba(0, 253, 84, 0.5);
+  --primary-6: rgba(0, 253, 84, 0.6);
+  --primary-7: rgba(0, 253, 84, 0.7);
+  --primary-8: rgba(0, 253, 84, 0.8);
+  --primary-9: rgba(0, 253, 84, 0.9);
+  --text-color: rgb(153 155 159);
+  --gray: #a5abb0;
+  --gray-dark: #858d97;
+  --lime: #63e600;
+  --lightpink-red: #ff7088;
+  --lightgreen: #26eda2;
+  --blue: #4049ec;
+  --purple: #6d33ff;
+  --cyan: #17a2b8;
+  --primary: #6963ff;
+  --secondary: #f6f7fb;
+  --light: #f8f9fa;
+
+  /* font family */
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family-monospace: Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --oswald: "Oswal", sans-serif;
+  --rubik: "Rubik", sans-serif;
+
+  /* font sizes */
+  --fs-0: 0.8rem;
+  --fs-1: 1rem;
+  --fs-2: 1.2rem;
+  --fs-3: 1.3rem;
+  --fs-4: 1.5rem;
+  --fs-5: 2rem;
+  --fs-6: 2.25rem;
+  --fs-7: 2.5rem;
+  --fs-8: 3rem;
+  --fs-9: 4rem;
+  --fs-10: 5rem;
+  --fs-11: 6rem;
+  --fs-12: 7rem;
+  --fs-13: 8rem;
+
+  /* box-shadow */
+  --box-shadow-1: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  --box-shadow-2: 0 0 0 40px rgba(10, 165, 205, 0);
+  --box-shadow-3: 0 0 0 0 rgba(255, 255, 255, 0.9);
+
+  /* border-radius */
+  --border-radius: 5px;
+  --circle: 50%;
+
+  /* transition */
+  --transition-1: all 300ms ease;
+  --transition-2: all 500ms ease;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+input,
+button,
+textarea {
+  outline: none;
+  border: none;
+}
+
+button:focus {
+  outline: none;
+}
+body{
+  scroll-behavior: smooth;
+}

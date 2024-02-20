@@ -1,0 +1,189 @@
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+.swiper-pagination-bullet-active {
+    background: var(--primary-bg-color);
+}
+
+/* brands */
+#brands .text-area p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin: 8rem 0 8rem 16px;
+}
+
+#brands .container .row {
+    background-attachment: fixed;
+}
+
+/* upskill-employees */
+
+#upskill-employees,
+#world-class-content,
+#roi,
+#talent {
+    background-color: var(--dark-theme);
+    color: var(--text-color);
+}
+
+.title {
+    font-size: var(--fs-3);
+    margin: 30px 0;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    margin: 25px 0;
+    font-size: 17px;
+}
+
+.img-area {
+    width: 100%;
+    height: 33rem;
+    background: var(--primary-1);
+}
+
+/* world-class-content */
+.right-area {
+    margin-left: 30px;
+}
+
+.comment-area {
+    /* border: 1px solid var(--border-color); */
+    width: 50%;
+    margin: 50px auto 0 auto;
+    border-radius: var(--border-radius);
+    padding: 20px;
+}
+
+.comment-area .fa-quote-right {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.comment-area i {
+    color: var(--primary-bg-color);
+}
+
+.comment-area .comment-owner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.comment-area .comment-owner .company-img {
+    width: 18%;
+    height: 56px;
+    background-color: var(--primary-1);
+    border-radius: var(--border-radius);
+    margin-right: 15px;
+}
+
+.comment-area .comment-owner .author,
+.proffesion {
+    color: var(--bs-white);
+}
+
+.comment-area .single-comment .comment {
+    padding: 20px;
+    text-align: center;
+}
+
+#search-catalog {
+    text-align: center;
+}
+
+#search-catalog .famous-search-words,
+#search-catalog .famous-search-words ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+#search-catalog .famous-search-words ul li {
+    margin-left: 10px;
+    padding: 3px 10px;
+    border: 1px solid var(--border-color);
+    --border-radius: 25px;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: var(--transition-1);
+}
+
+#search-catalog .famous-search-words ul li:hover {
+    border-color: var(--primary-bg-border);
+}
+
+#search-catalog .famous-search-words ul li.active {
+    border-color: var(--primary-bg-border);
+}
+
+#search-catalog form {
+    width: 50%;
+    display: flex;
+    margin: 20px auto;
+    align-items: center;
+    padding: 5px 10px;
+    border: 1px solid;
+    border-radius: var(--border-radius);
+}
+
+#search-catalog form input {
+    width: 100%;
+    border-radius: var(--border-radius);
+    color: var(--text-color);
+}
+
+
+
+@media (max-width:576px) {
+    .right-area {
+        margin-left: 0 !important;
+    }
+
+    #search-catalog form input,
+    .comment-area {
+        width: 100%;
+    }
+
+    #search-catalog .famous-search-words ul li {
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1180px) {
+
+    .right-area {
+        margin-left: 0 !important;
+    }
+
+    #search-catalog form input,
+    .comment-area {
+        width: 100%;
+    }
+
+    #search-catalog .famous-search-words ul li {
+        margin-bottom: 10px;
+    }
+}
