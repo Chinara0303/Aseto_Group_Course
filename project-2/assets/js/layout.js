@@ -22,18 +22,19 @@ let burgerMenuIcon = document.querySelector('.burger-menu-icon');
 let closeIcon = document.querySelector('.close-icon');
 let responsiveNavbar = document.querySelector('.responsive-navbar');
 let body = document.querySelector("body");
+
 burgerMenuIcon.addEventListener('click', function () {
     closeIcon.classList.add('show-close-icon')
     burgerMenuIcon.classList.add('hidden-burger-menu-icon');
     responsiveNavbar.classList.add("active-responsive-navbar")
     body.style.overflow = "hidden"
 })
+
 closeIcon.addEventListener('click', function () {
     closeIcon.classList.remove('show-close-icon')
     burgerMenuIcon.classList.remove('hidden-burger-menu-icon');
     responsiveNavbar.classList.remove("active-responsive-navbar");
     body.style.overflow = "unset"
-
 })
 
 let navbarLinks = document.querySelectorAll('.responsive-navbar .navbar-link');

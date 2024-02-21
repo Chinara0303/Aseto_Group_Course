@@ -213,7 +213,9 @@ header .top-area {
 }
 
 header .top-area span {
-    color: var(--text-color);
+    color: var(--bs-white);
+    opacity: 0.9;
+    margin-bottom: 6px;
     font-size: var(--fs-3);
 }
 
