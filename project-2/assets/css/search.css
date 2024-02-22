@@ -1,0 +1,133 @@
+#search-catalog {
+    text-align: center;
+}
+
+#search-catalog .famous-search-words,
+#search-catalog .famous-search-words ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+#search-catalog .famous-search-words ul li {
+    margin-left: 10px;
+    padding: 3px 10px;
+    border: 1px solid var(--border-color);
+    --border-radius: 25px;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: var(--transition-1);
+}
+
+#search-catalog .famous-search-words ul li:hover {
+    border-color: var(--primary-bg-border);
+}
+
+#search-catalog .famous-search-words ul li.active {
+    border-color: var(--primary-bg-border);
+}
+
+#search-catalog form {
+    width: 50%;
+    display: flex;
+    margin: 20px auto;
+    align-items: center;
+    padding: 5px 10px;
+    border: 1px solid;
+    border-radius: var(--border-radius);
+}
+
+#search-catalog form input {
+    width: 100%;
+    border-radius: var(--border-radius);
+    color: var(--text-color);
+}
+
+#search-catalog .search-result p {
+    text-align: start;
+    font-size: var(--fs-0);
+}
+
+#search-catalog .search-result ul {
+    margin: 17px 45px 45px 0;
+}
+
+#search-catalog .search-result ul li {
+    display: flex;
+    gap: 10px;
+    position: relative;
+    margin: 15px 0;
+}
+
+#search-catalog .search-result ul li .img {
+    width: 10%;
+}
+
+#search-catalog .search-result ul li .content {
+    text-align: start;
+    margin-left: 10px;
+}
+
+#search-catalog .search-result ul li .content a {
+    font-size: var(--fs-2);
+    color: var(--dark-theme);
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+#search-catalog .search-result ul li .content .company {
+    font-size: var(--fs-0);
+    color: var(--dark-theme);
+}
+
+#search-catalog .search-result ul li .content p {
+    font-size: var(--fs-0);
+    color: var(--text-color);
+}
+
+#search-catalog .search-result ul li .content .rating-area {
+    display: inline-block;
+}
+
+#search-catalog .search-result ul li .content span {
+    font-size: 12px;
+}
+
+#search-catalog .search-result ul li .content .rating-text {
+    font-weight: 500;
+}
+
+#search-catalog .search-result ul li::after {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background-color: var(--border-color);
+}
+
+
+
+
+@media (max-width:576px) {
+    #search-catalog form input {
+        width: 100%;
+    }
+
+    #search-catalog .famous-search-words ul li {
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1180px) {
+    #search-catalog form input {
+        width: 100% ;
+    }
+
+    #search-catalog .famous-search-words ul li {
+        margin-bottom: 10px;
+    }
+}
