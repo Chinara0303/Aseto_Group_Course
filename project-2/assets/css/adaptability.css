@@ -1,0 +1,18 @@
+
+#adaptability .item {
+    padding: 15px ;
+}
+#adaptability .item .content{
+    margin: 15px 0;
+}
+#adaptability .item .content p{
+    font-size: var(--fs-2);
+    color: var(--bs-white);
+}
+#adaptability .item .content span{
+    font-size: var(--fs-0);
+}
+
+#job-aligned-skills .comment-area{
+    width: 100%;
+}

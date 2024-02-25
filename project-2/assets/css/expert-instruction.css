@@ -1,0 +1,50 @@
+
+#expert-instruction {
+    background-color: rgb(208 208 208);
+ }
+ 
+ #expert-instruction h1 {
+    color: var(--dark-theme);
+ }
+ 
+ #expert-instruction ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 60px;
+ }
+ 
+ #expert-instruction ul li {
+    text-align: center;
+ }
+ 
+ #expert-instruction ul li .expert-img {
+    width: 90px;
+    height: 90px;
+    border-radius: var(--circle);
+    position: relative;
+    left: 30%;
+ }
+ 
+ #expert-instruction ul li .company-img {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: 44px;
+    left: 54%;
+    border-radius: var(--circle);
+ 
+ }
+ 
+ #expert-instruction ul li .company-img img,
+ #expert-instruction ul li .expert-img img {
+    border-radius: var(--circle);
+ }
+ 
+ #expert-instruction ul li .proffesion {
+    font-size: var(--fs-0);
+    color: var(--dark-theme);
+    font-weight: 600;
+ }
+ 

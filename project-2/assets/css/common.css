@@ -9,14 +9,6 @@ section {
     color: var(--text-color);
 }
 
-#upskill-employees,
-#world-class-content,
-#roi,
-#talent {
-    background-color: var(--dark-theme);
-    color: var(--text-color);
-}
-
 #intro {
     background-color: var(--dark-bg);
     padding-block: 0;
@@ -61,7 +53,7 @@ section {
     font-size: var(--fs-1);
     background-color: var(--primary-bg-color);
     padding: 15px;
-    width: 30%;
+    width: 50%;
     margin-top: 3rem;
     border-radius: var(--border-radius);
     position: relative;
@@ -83,7 +75,6 @@ section {
 
 #intro .left-area .btn-area:hover {
     background: var(--bs-dark);
-
 }
 
 #intro .left-area .btn-area:hover a {
@@ -104,7 +95,6 @@ section {
     transform: skewX(-22deg);
     transition: all .7s ease;
     border: 1px solid var(--bs-dark);
-
 }
 
 #intro .left-area .btn-area:hover .btn-curve {
@@ -120,6 +110,7 @@ section {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: var(--primary-1);
     height: 100vh;
 }
 
@@ -137,7 +128,6 @@ section {
 #intro .advertise-area .area {
     display: flex;
     align-items: center;
-    justify-content: center;
     padding: 10px;
     position: relative;
 }
@@ -152,11 +142,14 @@ section {
     width: 1px;
     height: 100%;
 }
-#intro .advertise-area .area .text{
+
+#intro .advertise-area .area .text {
     margin-left: 15px;
 }
+
 #intro .advertise-area .area .percent-area {
     font-size: var(--fs-5);
+    display: flex;
 }
 
 #intro .advertise-area .area .percent-area span {
@@ -165,25 +158,13 @@ section {
 
 #intro .advertise-area .area .percent-area span:last-child {
     display: inline-block;
-    margin-left: -9px;
+    margin-left: -1px;
 }
 
 #intro .video-area {
     height: 35rem;
-    background-color: var(--primary-1);
 }
 
-.css-btm-50 {
-    bottom: -50px !important;
-}
-
-.css-btm-50 .text {
-    width: 85%;
-}
-
-.css-btm-50 .col-lg-6:last-child .area {
-    margin: 14px 0;
-}
 
 h1 {
     color: var(--bs-white);
@@ -233,22 +214,7 @@ h1 {
     background-attachment: fixed;
 }
 
-#partners .navigation-area{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-#partners .navigation-area li{
-    width: 48%;
-}
-#partners .navigation-area li h4{
-    color: var(--primary-9);
-}
-#partners .navigation-area li span{
-    color: var(--bs-white);
-}
+
 /* title,subtitle */
 .title {
     font-size: var(--fs-3);
@@ -322,238 +288,19 @@ h1 {
     transition: var(--transition-1);
 }
 
+.learn-more-btn i {
+    margin-left: 10px;
+}
+
 .learn-more-btn:hover {
     color: var(--primary-9);
 }
 
 
-#learn-more,
-#learn-more h1 {
-    color: var(--dark-theme);
-}
-
-#learn-more h1 {
-    line-height: 1;
-}
-
-#learn-more .form-area {
-    border: 1px solid var(--border-color);
-    padding: 10px;
-    border-radius: var(--border-radius);
-}
-
-.input {
-    position: relative;
-    width: 49%;
-}
-
-.region,
-.select-option {
-    display: block;
-    width: 98%;
-}
-
-label {
-    margin: 15px 0;
-}
-
-select {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    cursor: pointer;
-}
-
-select:focus {
-    outline: none;
-}
-
-.input__label {
-    position: absolute;
-    left: 2px;
-    top: 0;
-    width: 30%;
-    padding: calc(var(--size-bezel) * 0.75) calc(var(--size-bezel) * .5);
-    margin: calc(var(--size-bezel) * 0.75 + 3px) calc(var(--size-bezel) * .5);
-    white-space: nowrap;
-    transform: translate(0, 0);
-    transform-origin: 0 0;
-    background: var(--bs-white);
-    transition: transform 120ms ease-in;
-    line-height: 1.2;
-    color: var(--text-color);
-}
-
-.input__field {
-    box-sizing: border-box;
-    display: block;
-    width: 100%;
-    border: 1px solid var(--border-color);
-    padding: calc(var(--size-bezel) * 1.5) var(--size-bezel);
-    color: currentColor;
-    background: transparent;
-    border-radius: var(--border-radius);
-}
-
-.input__field:focus+.input__label {
-    transform: translate(0.25rem, -65%) scale(0.8);
-    color: var(--text-color);
-    width: auto;
-}
-
-.input__field:focus {
-    border-color: var(--primary-9);
-
-}
-
-#learn-more .info {
-    font-size: 0.8rem;
-    padding: 15px 15px 0;
-    display: inline-block;
-}
-
-#learn-more button {
-    text-transform: uppercase;
-    font-size: var(--fs-1);
-    background-color: var(--primary-bg-color);
-    padding: 15px;
-    width: 30%;
-    border-radius: var(--border-radius);
-    position: relative;
-    transition: var(--transition-2);
-    margin: 3rem 11.8rem 0;
-}
-
-#learn-more button span {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--dark-theme);
-    font-weight: 500;
-}
-
-#learn-more button:hover {
-    background: var(--bs-dark);
-}
-
-#learn-more button:hover span {
-    color: var(--bs-white);
-    position: relative;
-    z-index: 4;
-}
-
-/* #learn-more button .btn-curve{
-    position: absolute;
-    right: -3px;
-    top: 0;
-    width: 12px;
-    height: 100%;
-    background: var(--dark-theme);
-    opacity: 0.2;
-    z-index: 0;
-    transform: skewX(-22deg);
-    transition: all .7s ease;
-}
-
-#learn-more button:hover .btn-curve {
-    opacity: 1;
-    right: 0;
-    width: 100%;
-    transform: skewX(0deg);
-    border-radius: 5px;
-    border-color:var(--primary-9);
-} */
-
-/* contact us area */
-#contact-us .contact-us-area {
-    padding-block: var(--fs-10);
-    width: 90%;
-    margin: 0 auto;
-    border-radius: var(--border-radius);
-    background-color: var(--dark-theme);
-}
-
-#contact-us .contact-text {
-    width: 85%;
-    margin: 0 auto;
-    text-align: center;
-}
-
-#contact-us .contact-text h1 {
-    font-size: var(--fs-8);
-}
-
-#contact-us .contact-text h5 {
-    color: var(--text-color);
-}
-
-#contact-us .btns {
-    text-align: center;
-    margin-top: var(--fs-10);
-}
-
-#contact-us .btns a {
-    color: var(--bs-white);
-    margin-right: 20px;
-    border: 1px solid var(--bs-white);
-    padding: 10px 15px;
-    border-radius: var(--border-radius);
-    transition: var(--transition-1);
-}
-
-#contact-us .btns a:first-child {
-    background-color: var(--primary-9);
-    color: var(--dark-theme);
-    border: 1px solid var(--primary-9);
-    font-weight: 500;
-}
-
-#contact-us .btns a:hover:last-child {
-    border-color: var(--primary-9);
-}
-
-#contact-us .btns a:hover:first-child {
-    background-color: var(--bs-white);
-    color: var(--bs-dark);
-}
-
-#contact-us .for-teams-btn {
-    font-size: var(--fs-0);
-    color: var(--bs-white);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 40px;
-}
-
-#contact-us .for-teams-btn span:last-child {
-    text-decoration: underline;
-    color: var(--text-color);
-}
-
-#overview .box-area {
-    border: 1px solid var(--border-color);
-    padding: 30px 20px 0;
-    border-radius: var(--border-radius);
-    height: 20rem;
-}
-
-#overview .box-area p {
-    margin: 1.5rem 0 2rem 0;
-}
-
-#overview .box-area a {
-    color: var(--primary-9);
-    font-weight: 500;
-}
-
-#overview .box-area a i {
-    margin-left: 5px;
-}
-
 @media (max-width:576px) {
-    #intro .advertise-area .col-lg-4:not(:last-child) .area::after, 
-    #intro .css-btm-50 .col-lg-6:not(:last-child) .area::after{
+
+    #intro .advertise-area .col-lg-4:not(:last-child) .area::after,
+    #intro .css-btm-50 .col-lg-6:not(:last-child) .area::after {
         top: 100% !important;
         left: -1% !important;
         width: 100%;
@@ -565,7 +312,7 @@ select:focus {
     }
 
     #intro .left-area .btn-area {
-        width: 60%;
+        width: 68% !important;
     }
 
     .right-area {
@@ -576,30 +323,6 @@ select:focus {
         width: 100% !important;
     }
 
-    #contact-us .contact-text h1 {
-        font-size: var(--fs-5);
-    }
-    #contact-us .btns a{
-        display: block;
-        margin-right: 0;
-    }
-    #contact-us .btns a:last-child{
-        margin-top: 40px;
-        display: block;
-    }
-    #contact-us  .for-teams-btn{
-        display: block;
-        text-align: center;
-    }
-    #contact-us  .for-teams-btn span{
-        display: inline-block;
-    }
-    #overview .box-area{
-        margin-bottom: 10px;
-    }
-    #learn-more button{
-        margin: 3rem 8rem !important;
-    }
 }
 
 @media (min-width:768px) and (max-width:1180px) {
@@ -617,6 +340,10 @@ select:focus {
         text-align: center;
     }
 
+    #intro .left-area .btn-area {
+        width: 40%;
+    }
+
     .right-area {
         margin-left: 0 !important;
         margin-top: 15px;
@@ -624,12 +351,5 @@ select:focus {
 
     .comment-area {
         width: 100%;
-    }
-    #intro .left-area .btn-area {
-        width: 35%;
-    }
-
-    #overview .box-area{
-        margin-bottom: 10px;
     }
 }

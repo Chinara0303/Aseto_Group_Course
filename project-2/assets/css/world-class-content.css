@@ -1,36 +1,22 @@
-#expert-instruction{
-    background-color: rgb(208 208 208);
+@import url('./tab-menu.css');
+@import url('./search.css');
+@import url('./common.css');
+@import url('./layout.css');
+@import url('./reset.css');
+@import url('./adaptability.css');
+@import url('./partners.css');
+@import url('./contac-us.css');
+@import url('./overview-box.css');
+@import url('./expert-instruction.css');
+
+.btn-area{
+   width: 50% !important;
 }
-#expert-instruction h1{
-   color: var(--dark-theme);
+
+.css-btm-50 {
+   bottom: 0 !important;
 }
-#expert-instruction ul{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
- }
- #expert-instruction ul li{
-    text-align: center;
- }
- #expert-instruction ul li .expert-img{
-    width: 90px;
-    height: 90px;
-    background-color: var(--primary-9);
-    border-radius: var(--circle);
- }
- #expert-instruction ul li .company-img{
-    width: 50px;
-    height: 50px;
-    background-color: red;
-    border-radius: var(--circle);
-    position: relative;
-    bottom: 44px;
-    left: 44px;
- }
- #expert-instruction ul li .proffesion {
-    font-size: var(--fs-0);
-    color: var(--dark-theme);
-    font-weight: 600;
- }
- 
+
+.css-btm-50 .col-lg-6:last-child .area {
+   margin: 0 !important;
+}

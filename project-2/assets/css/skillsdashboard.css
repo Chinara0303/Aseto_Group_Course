@@ -1,0 +1,17 @@
+@import url('./common.css');
+@import url('./layout.css');
+@import url('./reset.css');
+@import url('./overview-box.css');
+@import url('./contac-us.css');
+
+.css-btm-50{
+    bottom: -50px !important;
+}
+
+.css-btm-50 .text {
+    width: 85%;
+}
+
+.css-btm-50 .col-lg-6:last-child .area {
+    margin: 20px 0;
+}

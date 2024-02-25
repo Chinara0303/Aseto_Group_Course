@@ -1,0 +1,32 @@
+
+#overview .box-area {
+    border: 1px solid var(--border-color);
+    padding: 30px 20px 0;
+    border-radius: var(--border-radius);
+    height: 20rem;
+}
+
+#overview .box-area p {
+    margin: 1.5rem 0 2rem 0;
+}
+
+#overview .box-area a {
+    color: var(--primary-9);
+    font-weight: 500;
+}
+
+#overview .box-area a i {
+    margin-left: 5px;
+}
+
+@media (max-width:576px) {
+    #overview .box-area{
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1180px){
+    #overview .box-area{
+        margin-bottom: 10px;
+    }
+}

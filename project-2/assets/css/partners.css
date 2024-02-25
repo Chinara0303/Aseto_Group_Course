@@ -1,0 +1,19 @@
+#partners .navigation-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#partners .navigation-area li {
+    width: 48%;
+}
+
+#partners .navigation-area li h4 {
+    color: var(--primary-9);
+}
+
+#partners .navigation-area li span {
+    color: var(--bs-white);
+}

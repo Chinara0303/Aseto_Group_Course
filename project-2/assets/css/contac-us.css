@@ -1,0 +1,89 @@
+
+/* contact us area */
+#contact-us .contact-us-area {
+    padding-block: var(--fs-10);
+    width: 90%;
+    margin: 0 auto;
+    border-radius: var(--border-radius);
+    background-color: var(--dark-theme);
+}
+
+#contact-us .contact-text {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#contact-us .contact-text h1 {
+    font-size: var(--fs-8);
+}
+
+#contact-us .contact-text h5 {
+    color: var(--text-color);
+}
+
+#contact-us .btns {
+    text-align: center;
+    margin-top: var(--fs-10);
+}
+
+#contact-us .btns a {
+    color: var(--bs-white);
+    margin-right: 20px;
+    border: 1px solid var(--bs-white);
+    padding: 10px 15px;
+    border-radius: var(--border-radius);
+    transition: var(--transition-1);
+}
+
+#contact-us .btns a:first-child {
+    background-color: var(--primary-9);
+    color: var(--dark-theme);
+    border: 1px solid var(--primary-9);
+    font-weight: 500;
+}
+
+#contact-us .btns a:hover:last-child {
+    border-color: var(--primary-9);
+}
+
+#contact-us .btns a:hover:first-child {
+    background-color: var(--bs-white);
+    color: var(--bs-dark);
+}
+
+#contact-us .for-teams-btn {
+    font-size: var(--fs-0);
+    color: var(--bs-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+#contact-us .for-teams-btn span:last-child {
+    text-decoration: underline;
+    color: var(--text-color);
+}
+
+@media (max-width:576px) {
+    #contact-us .contact-text h1 {
+        font-size: var(--fs-5);
+    }
+    #contact-us .btns a{
+        display: block;
+        margin-right: 0;
+    }
+    #contact-us .btns a:last-child{
+        margin-top: 40px;
+        display: block;
+    }
+    #contact-us  .for-teams-btn{
+        display: block;
+        text-align: center;
+    }
+    #contact-us  .for-teams-btn span{
+        display: inline-block;
+    }
+}

@@ -1,0 +1,22 @@
+@import url('./search.css');
+@import url('./common.css');
+@import url('./layout.css');
+@import url('./reset.css');
+@import url('./contac-us.css');
+@import url('./overview-box.css');
+
+.btn-area{
+    width: 50% !important;
+}
+
+.css-btm-50 {
+    bottom: 0px !important;
+}
+
+.css-btm-50 .text {
+    width: 85%;
+}
+
+.css-btm-50 .col-lg-6:last-child .area {
+    margin: 20px 0 !important;
+}

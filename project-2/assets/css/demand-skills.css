@@ -1,0 +1,44 @@
+#demand-skills .content .title-text,
+#demand-skills .content .partnerships-area p{
+    color: var(--bs-white);
+    margin-bottom: 15px;
+}
+#demand-skills .content .skills-acquired{
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    color: var(--bs-white);
+    margin: 30px 0;
+    width: 65%;
+}
+#demand-skills .content .skills-acquired li{
+    list-style: circle;
+    width: auto;
+    margin-left: 10px;
+    font-size: var(--fs-0);
+}
+#demand-skills .content .navigation-area li span{
+    color: var(--bs-white);
+}
+
+#demand-skills .content .partnerships-area{
+    margin-top: 60px;
+   
+}
+#demand-skills .content .partnerships-area .partnership-imgs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: 40%;
+}
+#demand-skills .content .partnership-imgs li{
+    width: 40px;
+    height: 40px;
+    background-color: var(--primary-3);
+    border-radius: var(--circle);
+}
+#demand-skills .content .partnership-imgs li img{
+    border-radius: var(--circle);
+}
