@@ -74,7 +74,6 @@ select:focus {
 
 .input__field:focus {
     border-color: var(--primary-9);
-
 }
 
 #learn-more .info {

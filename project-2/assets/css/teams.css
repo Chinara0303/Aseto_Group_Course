@@ -1,0 +1,17 @@
+@import url('./common.css');
+@import url('./layout.css');
+@import url('./reset.css');
+@import url('./contac-us.css');
+@import url('./search.css');
+@import url('./partners.css');
+@import url('./adaptability.css');
+@import url('./faq.css');
+
+.suggest{
+    margin-top: 3rem;
+    text-align: center;
+    color: var(--bs-white);
+}
+.suggest span:first-child{
+    font-weight: bold;
+}
