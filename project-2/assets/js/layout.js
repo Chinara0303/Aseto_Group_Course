@@ -17,10 +17,8 @@ for (var i = 0; i < topbarNavLinks.length; i++) {
     }
 }
 
-
-
-
 let mainNavbar = document.querySelector(".main-navbar");
+
 window.addEventListener('scroll', function () {
     if (window.pageYOffset > 100) {
         mainNavbar.classList.add("active-navbar");

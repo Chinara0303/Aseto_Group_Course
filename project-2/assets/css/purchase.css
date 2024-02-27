@@ -211,35 +211,56 @@ select:focus {
     align-items: center;
 }
 
-#plan .purchase-summary {
+#plan .purchase-summary,
+#plan .item {
     width: 70%;
     margin: auto;
-    padding: 15px ;
+    padding: 15px;
     border: 1px solid var(--border-color);
     border-radius: var(--border-radius);
 }
-
-.team-plan ,
+#plan .item{
+    margin-top: 20px;
+    font-size: .7rem;
+    width: 50%;
+}
+#plan .item p:first-child{
+    margin-bottom: 10px;
+}
+.team-plan,
 .subscription-number,
-.total{
+.total
+ {
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-size: var(--fs-0);
     margin: 15px 0;
 }
-.annual-payment p:last-child{
+.today-payment,
+.quarterly-payment,
+.annual-payment{
+    font-size: var(--fs-0);
+}
+.annual-payment div,
+.quarterly-payment div,
+.quarterly-payment p,
+.today-payment div{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
-.annual-payment p:first-child{
+
+.annual-payment p:first-child,
+.quarterly-payment p:first-child {
     font-weight: 600;
-
 }
+.quarterly-payment,
+.annual-payment{
+    margin: 15px 0;
+}
+
 
 .de-active-content {
     display: none;
-
 }

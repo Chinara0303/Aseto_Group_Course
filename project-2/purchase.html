@@ -200,7 +200,8 @@
                             <div class="input-area">
                                 <form action="#">
                                     <label class="input">
-                                        <input class="input__field" type="number" placeholder=" " required />
+                                        <input class="input__field subscription-number-input" type="number"
+                                            placeholder=" " required />
                                         <span class="input__label">İstifadəçilərin sayı</span>
                                     </label>
                                 </form>
@@ -208,14 +209,14 @@
                             <div class="radio-area">
                                 <span>ÖDƏNİŞ SEÇİMİ</span>
                                 <form action="#">
-                                    <label for="annual" class="radio-item active-radio">
+                                    <label for="annual" class="radio-item active-radio annual">
                                         <input type="radio" name="radio" id="annual" checked>
                                         <p>
                                             <span>İllik</span>
                                             <span>İldə bir dəfə hesablanır</span>
                                         </p>
                                     </label>
-                                    <label for="quarterly" class="radio-item">
+                                    <label for="quarterly" class="radio-item quarterly">
                                         <input type="radio" name="radio" id="quarterly">
                                         <p>
                                             <span>Rüblük</span>
@@ -330,24 +331,74 @@
                             <p>"şəxsin adı" üçün</p>
                             <div class="team-plan">
                                 <p>Komanda planı (illik bir istifadəçi üçün qiymət)</p>
-                                <p>399 dollar</p>
+                                <p><span class="price">399</span> <span>dollar</span></p>
                             </div>
                             <div class="subscription-number">
                                 <p>İstifadəçilərin sayı</p>
-                                <p>x10</p>
+                                <p>-</p>
                             </div>
                             <div class="total">
                                 <p>Ümumi</p>
-                                <p>3990 dollar</p>
+                                <p>
+                                    <span class="total-price">-</span>
+                                    <span>dollar</span>
+                                </p>
                             </div>
                             <hr>
                             <div class="annual-payment">
                                 <p>İllik Ödəniş</p>
-                                <p>
+                                <div>
                                     <span>İllik cəmi</span>
-                                    <span>3990 dollar</span>
-                                </p>
+                                    <p>
+                                        <span class="annual-payment-price">-</span>
+                                        <span>dollar</span>
+                                    </p>
+                                </div>
                             </div>
+                            <div class="quarterly-payment d-none">
+                                <p>Rüblük Ödənişlər</p>
+                                <div>
+                                    <span>İllik cəmi</span>
+                                    <p>
+                                        <span class="total-price">-</span>
+                                        <span>dollar</span>
+                                    </p>
+                                </div>
+                                <div>
+                                    <span>4 dəfə rüblük ödənişlər</span>
+                                    <p>
+                                        <span class="quarterly-payment-price">-</span>
+                                        <span>dollar</span>
+                                    </p>
+                                </div>
+
+
+                            </div>
+                            <hr>
+                            <div class="today-payment">
+                                <div>
+                                    <span>Bugünkü Ödəniş</span>
+                                    <p>
+                                        <span class="today-payment-price">-</span>
+                                        <span>dollar</span>
+                                    </p>
+                                </div>
+                                <p>14 günlük geri qaytarma zəmanəti</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <p>Bu satınalmanı təsdiqləməklə mən <a href="#">Aseto Təşkilatları Müqaviləsi</a> ilə razılaşıram . İllik
+                                abunəliyiniz bu gün başlayır. Avtomatik yeniləməni dayandırmaq qərarına gəlsəniz,
+                                27/02/2025 tarixindən əvvəl ləğv etmək üçün planınızın Hesab səhifəsinə daxil olun və
+                                abunəliyiniz yenilənməyəcək. Cari planınızı ləğv etmək istəyirsinizsə, satınalma
+                                tarixindən etibarən tam geri qaytarılmasını tələb etmək üçün 14 gününüz var.
+                                Təfərrüatlar üçün təsdiq e-poçtunuzu yoxlayın.
+                            </p>
+                            <p>
+                                Mən başa düşürəm ki, mən də yeni Aseto hesabı yaradıram. Hesab yaratmaq üçün
+                                qeydiyyatdan keçməklə mən Coursera-nın <a href="#">İstifadə Şərtlərini</a> və <a href="#">Məxfilik Siyasətini</a> , o
+                                cümlədən ABŞ-da şəxsi məlumatlarınızın işlənməsini qəbul edirəm .
+                            </p>
                         </div>
                     </div>
                 </div>
