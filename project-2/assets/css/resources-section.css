@@ -1,0 +1,25 @@
+@import url('./reset.css');
+@import url('./layout.css');
+@import url('./learn-more.css');
+@import url('./common.css');
+
+#mastering-human-leadership ul,
+#pdf-area ul {
+    color: var(--primary-9);
+    margin: 20px 0 40px 30px;
+}
+
+#mastering-human-leadership ul li,
+#pdf-area ul li {
+    list-style-type: initial;
+}
+#mastering-human-leadership p:not(ul li p),
+#pdf-area p:not(ul li p){
+    margin-bottom: 20px;
+}
+#mastering-human-leadership ul li p,
+#pdf-area ul li p,
+h2 {
+    color: var(--bs-dark);
+}
+

@@ -1,0 +1,30 @@
+@import url('./reset.css');
+@import url('./layout.css');
+@import url('./common.css');
+
+
+ul {
+    color: var(--primary-9);
+    margin: 20px 0 40px 30px;
+}
+
+ul li {
+    list-style-type: initial;
+}
+
+ul li p,
+h2 {
+    color: var(--bs-white);
+}
+
+button{
+    padding: 7px 20px;
+    background: var(--primary-9);
+    border-radius: var(--border-radius);
+    color: var(--bs-white);
+    font-size: var(--fs-0);
+    transition: var(--transition-1);
+}
+button:hover{
+    background-color: var(--primary-7);
+}

@@ -178,42 +178,6 @@ h1 {
     background: linear-gradient(90deg, rgba(0, 78, 26, 1) 20%, rgba(0, 204, 68, 1) 50%, rgba(0, 78, 26, 1) 80%);
 }
 
-/* brands */
-#brands .swiper {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-#brands .swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 300px;
-    height: 300px;
-}
-
-#brands .swiper-slide img {
-    display: block;
-    width: 100%;
-}
-
-#brands .swiper-pagination-bullet-active {
-    background: var(--primary-bg-color);
-}
-
-#brands .text-area p {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2.25rem;
-    font-weight: 700;
-    margin: 8rem 0 8rem 16px;
-}
-
-#brands .container .row {
-    background-attachment: fixed;
-}
-
 
 /* title,subtitle */
 .title {
@@ -295,7 +259,6 @@ h1 {
 .learn-more-btn:hover {
     color: var(--primary-9);
 }
-
 
 @media (max-width:576px) {
 

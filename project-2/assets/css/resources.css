@@ -1,0 +1,210 @@
+@import url('./reset.css');
+@import url('./layout.css');
+@import url('./common.css');
+@import url('./tab-menu.css');
+
+.text-area {
+    margin: 20px 0;
+}
+
+.text-area h3,
+.text-area p {
+    color: var(--bs-white);
+
+}
+
+.learn-more-btn {
+    display: block;
+    text-align: end;
+    margin: 1rem 0 !important;
+}
+
+.box-item .learn-more-btn {
+    text-align: start;
+}
+
+#tab-menu .box-item {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#tab-menu .box-item .img {
+    height: auto;
+    margin-right: 10px;
+    width: 100%;
+}
+
+#tab-menu .box-item .img img {
+    border-radius: var(--border-radius);
+}
+
+.box-item .text-box {
+    width: 100%;
+}
+
+#tab-menu .topbar-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--border-color);
+
+}
+#tab-menu .box-item .text-box p {
+    margin-top: 20px;
+    color: var(--bs-white);
+    font-size: var(--fs-2);
+}
+#tab-menu .tab-menu{
+    margin-top: 0 !important;
+}
+#tab-menu .tab-menu .tab-menu-heading {
+    border-bottom: none !important;
+    font-size: var(--fs-0) !important;
+    text-align: start;
+    width: auto;
+    margin-right: 40px;
+}
+#tab-menu .tab-menu .tab-menu-heading p::after{
+    top: 28px;
+}
+#tab-menu .another-links{
+    font-size: var(--fs-0);
+}
+
+#tab-menu .another-links a{
+    color: var(--primary-9);
+    text-decoration: underline;
+    text-decoration-color: var(--bs-white);
+    margin-left: 10px;
+}
+
+.box-item .text-box span {
+    font-size: var(--fs-0);
+}
+#resources {
+    background-color: #f5f7f8;
+}
+#resources .resources-area {
+    margin-top: 30px;
+}
+
+#resources .box-item {
+    box-shadow: var(--box-shadow-1);
+    border-radius: var(--border-radius);
+    margin-bottom: 30px;
+    background-color: var(--bs-white);
+}
+
+#resources .box-item .learn-more-btn {
+    color: var(--bs-dark);
+}
+#resources .box-item .learn-more-btn:hover {
+    color: var(--primary-9);
+}
+#resources .box-item .img img {
+    border-top-right-radius: var(--border-radius);
+    border-top-left-radius: var(--border-radius);
+}
+
+#resources .box-item .text-box {
+    padding: 10px 20px 20px 20px;
+    height: 13rem;
+    line-height: 1.1;
+}
+
+#resources .box-item .text-box span {
+    color: #636363;
+    font-weight: 500;
+}
+
+#resources .box-item .text-box p {
+    font-size: var(--fs-2);
+    font-weight: 500;
+    margin: 10px 0 3rem 0;
+    height: 95px;
+}
+#resources form 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#resources form .dropdown{
+    background-color: var(--bs-white);
+    box-shadow: var(--box-shadow-1);
+    border: 1px solid var(--border-color);
+    width: 25%;
+    border-radius: var(--border-radius);
+}
+#resources form .dropdown button{
+    width: 100%;
+    text-align: start;
+}
+
+#resources form .dropdown-toggle::after{
+    border-top: 0.6em solid;
+    border-right: 0.6em solid transparent;
+    border-bottom: 0;
+    border-left: 0.6em solid transparent;
+    right: 16px;
+    position: absolute;
+    top: 14px;
+    color: var(--text-color);
+
+}
+#resources .dropdown-menu.show {
+    width: 100%;
+    z-index: 4;
+}
+#resources form .dropdown button:focus{
+    box-shadow: none;
+}
+#resources .dropdown-item {
+    white-space: initial !important;
+}
+#resources .dropdown-item.active, .dropdown-item:active {
+    color: var(--bs-dark);
+    text-decoration: none;
+    background-color: var(--primary-9);
+}
+#resources .search-box{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--bs-white);
+    box-shadow: var(--box-shadow-1);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+}
+#resources .search-box input{
+    padding: 0.375rem 0.75rem;
+    border-radius: var(--border-radius);
+}
+#resources .search-box input::placeholder{
+    color: var(--bs-dark);
+}
+#resources .search-box button{
+    background-color: var(--bs-white);
+}
+#resources .search-box button i{
+    color: var(--text-color);
+}   
+
+#resources .pagination-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#resources .page-link{
+    color: var(--bs-dark);
+}
+#resources .page-link:focus {
+    color: var(--bs-white);
+    background-color: var(--primary-9);
+    box-shadow: none;
+}
+#resources .page-link.active-page-link{
+    color: var(--bs-white) !important;
+    background-color: var(--primary-9);
+}

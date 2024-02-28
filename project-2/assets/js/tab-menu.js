@@ -1,7 +1,7 @@
 
 // tab menu
 let tabMenus = document.querySelectorAll(".tab-menu-heading");
-let contents = document.querySelectorAll("#demand-skills .content");
+let contents = document.querySelectorAll(".section .content");
 
 for (var tabMenu of tabMenus) {
     tabMenu.addEventListener("click", function () {

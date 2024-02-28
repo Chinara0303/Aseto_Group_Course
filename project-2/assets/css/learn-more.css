@@ -8,7 +8,8 @@
     line-height: 1;
 }
 
-#learn-more .form-area {
+#learn-more .form-area,
+#mastering-human-leadership .form-area {
     border: 1px solid var(--border-color);
     padding: 10px;
     border-radius: var(--border-radius);
@@ -76,13 +77,13 @@ select:focus {
     border-color: var(--primary-9);
 }
 
-#learn-more .info {
-    font-size: 0.8rem;
+ .info {
+    font-size: var(--fs-0);
     padding: 15px 15px 0;
     display: inline-block;
 }
 
-#learn-more button {
+ button {
     text-transform: uppercase;
     font-size: var(--fs-1);
     background-color: var(--primary-bg-color);
@@ -94,7 +95,7 @@ select:focus {
     margin: 3rem 11.8rem 0;
 }
 
-#learn-more button span {
+ button span {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -102,11 +103,11 @@ select:focus {
     font-weight: 500;
 }
 
-#learn-more button:hover {
+ button:hover {
     background: var(--bs-dark);
 }
 
-#learn-more button:hover span {
+button:hover span {
     color: var(--bs-white);
     position: relative;
     z-index: 4;
@@ -135,8 +136,7 @@ select:focus {
 } */
 
 @media (max-width:576px) {
-     
-    #learn-more button{
+     button{
         margin: 3rem 8rem !important;
     }
 }
