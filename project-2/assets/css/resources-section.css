@@ -13,13 +13,54 @@
 #pdf-area ul li {
     list-style-type: initial;
 }
+
 #mastering-human-leadership p:not(ul li p),
-#pdf-area p:not(ul li p){
+#pdf-area p:not(ul li p) {
     margin-bottom: 20px;
 }
+
 #mastering-human-leadership ul li p,
 #pdf-area ul li p,
 h2 {
     color: var(--bs-dark);
 }
 
+
+#mastering-human-leadership button {
+    text-transform: uppercase;
+    font-size: var(--fs-1);
+    background-color: var(--primary-bg-color);
+    padding: 15px;
+    width: 30%;
+    border-radius: var(--border-radius);
+    position: relative;
+    transition: var(--transition-2);
+    margin: 2rem 13rem;
+}
+
+#mastering-human-leadership button span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--dark-theme);
+    font-weight: 500;
+}
+
+#mastering-human-leadership button:hover {
+    background: var(--bs-dark);
+}
+
+#mastering-human-leadership button:hover span {
+    color: var(--bs-white);
+    position: relative;
+    z-index: 4;
+}
+
+@media (max-width:576px) {
+
+    #mastering-human-leadership button {
+        margin: 2rem 8rem;
+        font-size: var(--fs-0);
+    }
+
+}

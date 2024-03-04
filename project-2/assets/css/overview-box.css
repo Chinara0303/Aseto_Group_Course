@@ -5,7 +5,12 @@
     border-radius: var(--border-radius);
     height: 20rem;
 }
-
+#overview .box-area h3{
+    text-transform: uppercase;
+}
+#overview .box-area .web-name{
+    text-transform: capitalize;
+}
 #overview .box-area p {
     margin: 1.5rem 0 2rem 0;
 }

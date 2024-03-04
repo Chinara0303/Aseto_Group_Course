@@ -1,4 +1,3 @@
-
 #learn-more,
 #learn-more h1 {
     color: var(--dark-theme);
@@ -77,13 +76,13 @@ select:focus {
     border-color: var(--primary-9);
 }
 
- .info {
+.info {
     font-size: var(--fs-0);
     padding: 15px 15px 0;
     display: inline-block;
 }
 
- button {
+#learn-more button {
     text-transform: uppercase;
     font-size: var(--fs-1);
     background-color: var(--primary-bg-color);
@@ -95,7 +94,7 @@ select:focus {
     margin: 3rem 11.8rem 0;
 }
 
- button span {
+#learn-more button span {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -103,11 +102,11 @@ select:focus {
     font-weight: 500;
 }
 
- button:hover {
+#learn-more button:hover {
     background: var(--bs-dark);
 }
 
-button:hover span {
+#learn-more button:hover span {
     color: var(--bs-white);
     position: relative;
     z-index: 4;
@@ -136,7 +135,7 @@ button:hover span {
 } */
 
 @media (max-width:576px) {
-     button{
+    #learn-more button {
         margin: 3rem 8rem !important;
     }
 }

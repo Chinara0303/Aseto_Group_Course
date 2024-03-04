@@ -6,7 +6,7 @@
    margin-top: 70px;
 }
 
- .tab-menu .tab-menu-heading {
+.tab-menu .tab-menu-heading {
    cursor: pointer;
    width: 100%;
    text-align: center;
@@ -18,11 +18,11 @@
    padding: 10px 0;
 }
 
- .tab-menu .tab-menu-heading p {
+.tab-menu .tab-menu-heading p {
    position: relative;
 }
 
- .tab-menu .tab-menu-heading p::after {
+.tab-menu .tab-menu-heading p::after {
    content: '';
    position: absolute;
    top: 33px;
@@ -35,7 +35,7 @@
    transition: var(--transition-1);
 }
 
- .tab-menu .tab-menu-heading.active p::after {
+.tab-menu .tab-menu-heading.active p::after {
    opacity: 1;
    visibility: visible;
 }
@@ -44,28 +44,30 @@
    display: none;
 }
 
- .content {
+.content {
    margin-top: 5rem;
 }
 
- .content .img-area {
+.content .img-area {
    height: 20rem;
    width: 100%;
 }
 
 @media (max-width:576px) {
-    .tab-menu{
+   .tab-menu {
       flex-wrap: wrap;
    }
+
    .tab-menu .tab-menu-heading {
-      width: 49% !important;
+      width: 100% !important;
+   }
+   #demand-skills .content .title-text{
+      margin-top: 30px ;
    }
 }
+
 @media (min-width:768px) and (max-width:1180px) {
-   .tab-menu .tab-menu-heading {
-      width: 33% !important;
-   }
-   .tab-menu{
+   .tab-menu {
       flex-wrap: wrap;
    }
 }

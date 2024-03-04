@@ -33,3 +33,9 @@
 #brands .container .row {
     background-attachment: fixed;
 }
+
+@media (max-width:675px){
+    #brands .text-area p {
+        font-size: var(--fs-5) !important;
+    }
+}

@@ -62,3 +62,28 @@ navbarLinks.forEach(navbarLink => {
             .classList.toggle('hidden-arrow');
     })
 })
+
+function uppercaseAz(text) {
+    let azChars = {
+        "ə": "Ə",
+        "ç": "Ç",
+        "ş": "Ş",
+        "ü": "Ü",
+        "ö": "Ö",
+        "ğ": "Ğ",
+        "ı": "I",
+        "i": "İ"
+    };
+    return text.replace(/[əçşüöğıi]/g, function (match) {
+        return azChars[match];
+    });
+}
+
+function transformAzText() {
+    let elements = document.querySelectorAll("[data-uppercase-az]");
+    elements.forEach(function (element) {
+        element.textContent = uppercaseAz(element.textContent);
+    });
+}
+transformAzText();
+

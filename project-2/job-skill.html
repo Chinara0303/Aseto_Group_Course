@@ -20,10 +20,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- added swiper -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- added slick js -->
+    <link rel="stylesheet" href="./assets/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="./assets/slick-1.8.1/slick/slick-theme.css">
     <!-- added css -->
-    <link rel="stylesheet" href="./assets/css/why-aseto.css">
+    <link rel="stylesheet" href="./assets/css/global.css">
     <title>Document</title>
 </head>
 
@@ -32,10 +34,10 @@
         <div class="topbar d-lg-block d-none">
             <div class="container">
                 <ul class="topbar-navbar">
-                    <li><a href="#">Fərdi şəxslər üçün</a></li>
-                    <li class="active-link"><a href="businesses.html">Bizneslər üçün</a></li>
-                    <li><a href="universities.html">Universitetlər üçün</a></li>
-                    <li><a href="governments.html">Hökumətlər üçün</a></li>
+                    <li><a href="individual.html">For Individuals</a></li>
+                    <li class="active-link"><a href="businesses.html">For Businesses</a></li>
+                    <li><a href="universities.html">For Universities</a></li>
+                    <li><a href="governments.html">For Governments</a></li>
                 </ul>
             </div>
         </div>
@@ -47,7 +49,8 @@
                         <div class="top-area">
                             <div class="logo">
                                 <a href="businesses.html">
-                                    <img class="img-fluid" src="./assets/img/icons-logo/aseto-academy-logo-sol.png" alt="">
+                                    <img class="img-fluid" src="./assets/img/icons-logo/aseto-academy-logo-sol.png"
+                                        alt="">
                                 </a>
                             </div>
                             <span>biznes üçün</span>
@@ -56,54 +59,10 @@
                     <div class="col-lg-6 col-md-6 d-lg-block d-none">
                         <ul class="navbar">
                             <li class="navbar-item">
-                                <p class="navbar-link">Niyə Aseto</p>
-                                <i class="fa-solid fa-chevron-down fa-xs"></i>
-                                <ul class="dropdown-area">
-                                    <li><a data-uppercase-az href="why-aseto.html">Ümumi baxış</a></li>
-                                    <li><a data-uppercase-az href="skillsets.html">Bacarıq dəstləri</a></li>
-                                    <li><a data-uppercase-az href="skillsdashboard.html">Bacarıqlar Paneli</a></li>
-                                    <li><a data-uppercase-az href="integrations.html">İnteqrasiyalar</a></li>
-                                    <li><a data-uppercase-az href="world-class-content.html">Dünya səviyyəli məzmun</a>
-                                    </li>
-                                    <li><a data-uppercase-az href="guided-projects.html">Bələdçi Layihələr</a></li>
-                                    <li><a data-uppercase-az href="clips.html">Kliplər</a></li>
-                                    <li><a data-uppercase-az href="levelsets.html">Səviyyə dəstləri</a></li>
-                                </ul>
+                                <a class="navbar-link" href="global.html">Qlobal Bacarıqlar Hesabatı</a>
                             </li>
                             <li class="navbar-item">
-                                <p class="navbar-link">Həll yolları</p>
-                                <i class="fa-solid fa-chevron-down fa-xs"></i>
-                                <ul class="dropdown-area">
-                                    <li><a data-uppercase-az href="marketing-academy.html">Marketinq Akademiyası</a>
-                                    </li>
-                                    <li><a data-uppercase-az href="finance-academy.html">Maliyyə Akademiyası</a></li>
-                                    <li><a data-uppercase-az href="career-academy.html">Karyera Akademiyası</a></li>
-                                    <li><a data-uppercase-az href="data-analytics-academy.html">Məlumat və Analitika
-                                            Akademiyası</a></li>
-                                    <li><a data-uppercase-az href="tech-academy.html">Texnika Akademiyası</a></li>
-                                    <li><a data-uppercase-az href="leadership-academy.html">Liderlik Akademiyası</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="navbar-item">
-                                <p class="navbar-link">Resurslar</p>
-                                <i class="fa-solid fa-chevron-down fa-xs"></i>
-                                <ul class="dropdown-area">
-                                    <li><a data-uppercase-az href="resources.html">Ümumi baxış</a></li>
-                                    <li><a data-uppercase-az href="business-datasheet.html">Aseto for Biznes
-                                            haqqında</a></li>
-                                    <li><a data-uppercase-az href="mastering-human-leadership.html">İnsan Liderliyinə
-                                            yiyələnmək</a></li>
-                                    <li><a data-uppercase-az
-                                            href="data-literacy-for-digital-transformation.html">Məlumat Savadlılığından
-                                            Rəqəmsal Transformasiyaya qədər</a></li>
-                                </ul>
-                            </li>
-                            <li class="navbar-item">
-                                <a class="navbar-link" href="teams.html">Komandalar üçün</a>
-                            </li>
-                            <li class="navbar-item">
-                                <a class="navbar-link" href="compare-plans.html">Planları müqayisə edin</a>
+                                <a class="navbar-link" href="job-skill.html">İş Bacarıqları Hesabatı</a>
                             </li>
                         </ul>
                     </div>
@@ -129,67 +88,10 @@
         <div class="responsive-navbar">
             <ul>
                 <li class="navbar-item">
-                    <div class="navbar-link">
-                        <span>Niyə Aseto</span>
-                        <div class="chevron-icons">
-                            <i class="fa-solid fa-chevron-right fa-xs"></i>
-                            <i class="fa-solid fa-chevron-down fa-xs hidden-arrow"></i>
-                        </div>
-                    </div>
-                    <ul class="dropdown-area">
-                        <li><a data-uppercase-az href="why-aseto.html">Ümumi baxış</a></li>
-                        <li><a data-uppercase-az href="skillsets.html">Bacarıq dəstləri</a></li>
-                        <li><a data-uppercase-az href="skillsdashboard.html">Bacarıqlar Paneli</a></li>
-                        <li><a data-uppercase-az href="integrations.html">İnteqrasiyalar</a></li>
-                        <li><a data-uppercase-az href="world-class-content.html">Dünya səviyyəli məzmun</a></li>
-                        <li><a data-uppercase-az href="guided-projects.html">Bələdçi Layihələr</a></li>
-                        <li><a data-uppercase-az href="clips.html">Kliplər</a></li>
-                        <li><a data-uppercase-az href="levelsets.html">Səviyyə dəstləri</a></li>
-                    </ul>
+                    <a class="navbar-link" href="global.html">Qlobal Bacarıqlar Hesabatı</a>
                 </li>
                 <li class="navbar-item">
-                    <div class="navbar-link">
-                        <span>Həll yolları</span>
-                        <div class="chevron-icons">
-                            <i class="fa-solid fa-chevron-right fa-xs"></i>
-                            <i class="fa-solid fa-chevron-down fa-xs hidden-arrow"></i>
-                        </div>
-                    </div>
-                    <ul class="dropdown-area">
-                        <li><a data-uppercase-az href="marketing-academy.html">Marketinq Akademiyası</a></li>
-                        <li><a data-uppercase-az href="finance-academy.html">Maliyyə Akademiyası</a></li>
-                        <li><a data-uppercase-az href="career-academy.html">Karyera Akademiyası</a></li>
-                        <li><a data-uppercase-az href="data-analytics-academy.html">Məlumat və Analitika Akademiyası</a>
-                        </li>
-                        <li><a data-uppercase-az href="tech-academy.html">Texnika Akademiyası</a></li>
-                        <li><a data-uppercase-az href="leadership-academy.html">Liderlik Akademiyası</a></li>
-                    </ul>
-                </li>
-                <li class="navbar-item">
-                    <div class="navbar-link">
-                        <span>Resurslar</span>
-                        <div class="chevron-icons">
-                            <i class="fa-solid fa-chevron-right fa-xs"></i>
-                            <i class="fa-solid fa-chevron-down fa-xs hidden-arrow"></i>
-                        </div>
-                    </div>
-                    <ul class="dropdown-area">
-                        <li><a data-uppercase-az href="resources.html">Ümumi baxış</a></li>
-                        <li><a data-uppercase-az href="business-datasheet.html">Aseto for Biznes haqqında</a></li>
-                        <li><a data-uppercase-az href="mastering-human-leadership.html">İnsan Liderliyinə yiyələnmək</a>
-                        </li>
-                        <li>
-                            <a data-uppercase-az href="data-literacy-for-digital-transformation.html">
-                                Məlumat Savadlılığından Rəqəmsal Transformasiyaya qədər
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="navbar-item">
-                    <a class="navbar-link" href="teams.html">Komandalar üçün</a>
-                </li>
-                <li class="navbar-item">
-                    <a class="navbar-link" href="compare-plans.html">Planları müqayisə edin</a>
+                    <a class="navbar-link" href="job-skill.html">İş Bacarıqları Hesabatı</a>
                 </li>
             </ul>
         </div>
@@ -201,18 +103,21 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="left-area">
-                            <h1>İstənilən səviyyəni yüksəldin və dəyişiklik yolu ilə inkişaf edin</h1>
-                            <p class="subtext">İşçilərinizi işə uyğunlaşdırılmış bacarıqlar, məlumatlara əsaslanan
-                                anlayışlar və etibarlı məzmun və etimadnamələrlə Generativ AI və digər texnoloji
-                                sürətləndirmələrə hazırlayın.</p>
+                            <h1>İş Bacarıqlar Hesabatı</h1>
+                            <div class="subtitle">
+                                <p>
+                                    Bizneslər, hökumətlər və ali təhsil müəssisələri üçün işin gələcəyini formalaşdıran
+                                    ən sürətlə inkişaf edən iş bacarıqlarını kəşf edin
+                                </p>
+                            </div>
                             <div class="btn-area">
-                                <a href="learn-more.html">Daha çox</a>
+                                <a href="learn-more.html">Hesabat alın</a>
                                 <i class="btn-curve"></i>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="right-area" style="background-image: url('./assets/img/bg/whycoursea_hero.jpg');">
+                        <div class="right-area img-area">
                         </div>
                     </div>
                 </div>
@@ -221,28 +126,31 @@
                         <div class="col-lg-4 col-md-4">
                             <div class="area">
                                 <p class="percent-area">
-                                    <span>24</span>
+                                    <span>60</span>
                                     <span>%</span>
                                 </p>
-                                <p class="text">Təlim xərclərinin azaldılması</p>
+                                <p class="text">2027-ci ilə qədər işçilərin yenidən hazırlanmasına ehtiyacı olacaq,
+                                    lakin yalnız 50%-nin çıxışı var.
+                                </p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4">
                             <div class="area">
                                 <p class="percent-area">
-                                    <span>38</span>
-                                    <span>%</span>
+                                    <span>4/5</span>
                                 </p>
-                                <p class="text">Daha yüksək saxlama dərəcələri</p>
+                                <p class="text">işəgötürənlər 2023-cü ildə ehtiyac duyduqları ixtisaslı istedadı
+                                    tapmaqda çətinlik çəkdiklərini bildirdilər.</p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4">
                             <div class="area">
                                 <p class="percent-area">
-                                    <span>25</span>
+                                    <span>62</span>
                                     <span>%</span>
                                 </p>
-                                <p class="text">Daha çox işçi məhsuldarlığı</p>
+                                <p class="text">Işçilərin generativ süni intellektdən effektiv və təhlükəsiz şəkildə
+                                    istifadə etmək bacarıqlarının olmadığını deyirlər.</p>
                             </div>
                         </div>
                     </div>
@@ -250,262 +158,158 @@
             </div>
         </section>
 
-        <section id="brands">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="swiper brands-swiper">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-                                </div>
-                            </div>
-                            <div class="swiper-pagination"></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="text-area">
-                            <p>3800-dən çox şirkətin liderləri Aseto ilə istedadlarını inkişaf etdirirlər</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <div class="line"></div>
 
-        <section id="adaptability" class="section">
+        <section class="section">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
-                        <h1>Uyğunlaşma qabiliyyətinizi artırın</h1>
+                        <div class="video-area"></div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h1>2024-cü ilin İş Bacarıqlarını təqdim edirik</h1>
                         <div class="subtitle">
-                            <p>İnkişaf etməkdə olan texnologiyadan istifadə edə və istənilən dəyişikliklə uğur qazana
-                                bilən bacarıqlı və çevik şirkət yaratmaq üçün bacarıqlara əsaslanan məzmunumuzdan və
-                                etibarlı etimadnamələrimizdən istifadə edin.
+                            <p>Bu hesabat 2022-ci ildən 2023-cü ilə qədər Coursera müəssisə şagirdi qeydiyyatının
+                                təfərrüatlı təhlili əsasında 2024-cü ilin ən sürətlə inkişaf edən bacarıqlarını müəyyən
+                                edir. Bu bacarıqların 2024-cü ildə və sonrakı illərdə də populyarlığını qoruyacağı
+                                gözlənilir.
                             </p>
                         </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="item">
-                                    <div class="img">
-                                        <img src="./assets/img/  AsetoIcon_AchievementBadge_Black.svg" alt="">
-                                    </div>
-                                    <div class="content">
-                                        <p>Bacarıq boşluqlarını bağlayın</p>
-                                        <span>Bacarıq boşluqlarınızı görmək üçün rol əsaslı qiymətləndirmələrdən və
-                                            sənaye
-                                            meyarlarından istifadə edin. Öz məzmun təcrübələrinizi hazırlayın və ya
-                                            kolleksiyalardan istifadə edin.</span>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="item">
-                                    <div class="img">
-                                        <img src="./assets/img/  AsetoIcon_Diplomas_Black.svg" alt="">
-                                    </div>
-                                    <div class="content">
-                                        <p>İstedad inkişaf etdirin</p>
-                                        <span>Başlanğıc səviyyəli istedaddan tutmuş C dəstinizə qədər biznesinizdə
-                                            texnologiya, məlumat və liderlik bacarıqlarını gücləndirin.</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="item">
-                                    <div class="img">
-                                        <img src="./assets/img/Frame.svg" alt="">
-                                    </div>
-                                    <div class="content">
-                                        <p>İstedadı qoruyun</p>
-                                        <span>İşçilərinizi məşğul saxlamaq, karyeralarını yüksəltmək və daxili
-                                            hərəkətliliyi asanlaşdırmaq üçün peşəkar inkişaf imkanları təklif
-                                            edin.</span>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="item">
-                                    <div class="img">
-                                        <img src="./assets/img//  AsetoIcon_Graph_Black.svg" alt="">
-                                    </div>
-                                    <div class="content">
-                                        <p>İstedadın yenidən hazırlanması</p>
-                                        <span>İnkişaf etməkdə olan texnologiyanın təsirinə məruz qalan işçiləri
-                                            şirkətinizdə növbəti vəzifə üçün hazırlayın.</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <a href="#" class="learn-more-btn">Hesabatı yükləyin
+                            <i class="fa-solid fa-arrow-right fa-sm"></i>
+                        </a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <div class="line"></div>
-
-        <section id="job-aligned-skills" class="section">
+        <section id="report-area" class="section">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="img-area">
-                        </div>
+                <h1>Ən sürətlə böyüyən iş bacarıqlarını nəzərdən keçirin</h1>
+                <div class="subtitle">
+                    <p>Sürətlə inkişaf edən bacarıqların nümunəsini görmək üçün kateqoriya seçin. Hər bir kateqoriya
+                        Coursera-da 136 milyon şagirdə bacarıqların artırılması imkanları gətirən 7000-dən çox qurum
+                        üçün əsasdır.</p>
+                </div>
+                <div class="tab-menu">
+                    <div data-index="1" class="tab-menu-heading active">
+                        <p>İş bacarığı</p>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="right-area">
-                            <h1>İşlə əlaqəli bacarıqları inkişaf etdirin</h1>
-                            <div class="subtitle">
-                                <p>İstənilən rol, karyera mərhələsi və öyrənmə tərzi üçün müvafiq məzmun təqdim edin.
-                                    İstədiyiniz bacarıq yolunda qısa Kliplər, praktik layihələr, immersiv təcrübələr,
-                                    kurslar və Peşəkar Sertifikatlar vasitəsilə irəliləyin.
-                                </p>
-                            </div>
-                            <div class="comment-area">
-                                <i class="fa-solid fa-quote-left fa-lg"></i>
-                                <div class="single-comment">
-                                    <p class="comment">Aseto vasitəsilə öyrəndiklərim mənə çətin biznes problemlərini
-                                        həll etmək və
-                                        rəqəmsal
-                                        imkanlarımızın inkişafını sürətləndirmək üçün komandamdakı peşəkar məlumat
-                                        analitiklərini
-                                        daha yaxşı istiqamətləndirmək və məlumatlandırmaq imkanı verir.
-                                    </p>
-                                    <i class="fa-solid fa-quote-right fa-lg"></i>
-                                </div>
-                                <div class="comment-owner">
-                                    <div class="company-img"></div>
-                                    <div>
-                                        <p class="author">Chinara Ibadova</p>
-                                        <p class="proffesion">Tədqiqatçı</p>
-                                    </div>
-
-                                </div>
-
-                            </div>
-                        </div>
+                    <div data-index="2" class="tab-menu-heading">
+                        <p>Məlumat Elmi Bacarıqları</p>
+                    </div>
+                    <div data-index="3" class="tab-menu-heading">
+                        <p>Texniki Bacarıqlar</p>
                     </div>
                 </div>
-
+                <div class="content" data-index="1">
+                    <!-- <canvas id="myChart"></canvas> -->
+                </div>
+                <div class="content de-active-content" data-index="2">
+                    asfgh
+                </div>
+                <div class="content de-active-content" data-index="3">
+                    asfghwargth
+                </div>
             </div>
         </section>
 
         <div class="line"></div>
 
-        <section id="decisions" class="section">
+        <section id="comments" class="section">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="right-area">
-                            <h1>Məlumata əsaslanan qərarlar qəbul edin
-                            </h1>
-                            <div class="subtitle">
-                                <p>İstedad inkişaf strategiyanızı məlumatlandırmaq, ölçmək və qiymətləndirmək üçün
-                                    hərtərəfli ölçülərimiz və sənaye anlayışlarımızdan istifadə edin. Real vaxt
-                                    rejimində, təsdiqlənmiş performans məlumatlarımızdan istifadə edərək hər bir işçinin
-                                    tərəqqisini nümayiş etdirin.
+                <div class="comment-boxes">
+                    <div class="comment-box">
+                        <div class="author-img">
+                            <img src="./assets/img/maureen__1_.jpg" alt="">
+                        </div>
+                        <div class="comment-area">
+                            <i class="fa-solid fa-quote-left fa-lg"></i>
+                            <div class="single-comment">
+                                <p class="comment">Təhsil, hökumət və sənaye liderləri bütün dünyada tələbələrə işə
+                                    uyğunlaşdırılmış, çevik və əlçatan kurikulum təqdim etməklə texnoloji bacarıqlardakı
+                                    boşluğu aradan qaldırmaq üçün birlikdə işləmək fürsətinə malikdirlər.
                                 </p>
+                                <i class="fa-solid fa-quote-right fa-lg"></i>
                             </div>
-                            <div class="comment-area">
-                                <i class="fa-solid fa-quote-left fa-lg"></i>
-                                <div class="single-comment">
-                                    <p class="comment">Aseto vasitəsilə öyrəndiklərim mənə çətin biznes problemlərini
-                                        həll etmək və
-                                        rəqəmsal
-                                        imkanlarımızın inkişafını sürətləndirmək üçün komandamdakı peşəkar məlumat
-                                        analitiklərini
-                                        daha yaxşı istiqamətləndirmək və məlumatlandırmaq imkanı verir.
-                                    </p>
-                                    <i class="fa-solid fa-quote-right fa-lg"></i>
-                                </div>
-                                <div class="comment-owner">
-                                    <div class="company-img"></div>
-                                    <div>
-                                        <p class="author">Chinara Ibadova</p>
-                                        <p class="proffesion">Tədqiqatçı</p>
-                                    </div>
-
+                            <div class="comment-owner">
+                                <div class="company-img"></div>
+                                <div>
+                                    <p class="author">Chinara Ibadova</p>
+                                    <p class="proffesion">Tədqiqatçı, Procter & Gamble</p>
                                 </div>
 
                             </div>
+
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="img-area">
+                    <div class="comment-box">
+                        <div class="author-img">
+                            <img src="./assets/img/maureen__1_.jpg" alt="">
                         </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <div class="line"></div>
-
-        <section id="credentials" class="section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="img-area">
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="right-area">
-                            <h1>Etibarlı məzmun və etimadnamələri təqdim edin
-                            </h1>
-                            <div class="subtitle">
-                                <p>325+ aparıcı şirkət və universitetin dünya səviyyəli məzmunu və etibarlı
-                                    etimadnamələri ilə öyrənmə nəticələrini təkmilləşdirin. Tədris dizaynı üzrə
-                                    mütəxəssislərimiz hər bir məzmun parçasının effektiv öyrənməni təşviq etməsini təmin
-                                    edir.
+                        <div class="comment-area">
+                            <i class="fa-solid fa-quote-left fa-lg"></i>
+                            <div class="single-comment">
+                                <p class="comment">Təhsil, hökumət və sənaye liderləri bütün dünyada tələbələrə işə
+                                    uyğunlaşdırılmış, çevik və əlçatan kurikulum təqdim etməklə texnoloji bacarıqlardakı
+                                    boşluğu aradan qaldırmaq üçün birlikdə işləmək fürsətinə malikdirlər.
                                 </p>
+                                <i class="fa-solid fa-quote-right fa-lg"></i>
                             </div>
-                            <div class="comment-area">
-                                <i class="fa-solid fa-quote-left fa-lg"></i>
-                                <div class="single-comment">
-                                    <p class="comment">Aseto vasitəsilə öyrəndiklərim mənə çətin biznes problemlərini
-                                        həll etmək və
-                                        rəqəmsal
-                                        imkanlarımızın inkişafını sürətləndirmək üçün komandamdakı peşəkar məlumat
-                                        analitiklərini
-                                        daha yaxşı istiqamətləndirmək və məlumatlandırmaq imkanı verir.
-                                    </p>
-                                    <i class="fa-solid fa-quote-right fa-lg"></i>
-                                </div>
-                                <div class="comment-owner">
-                                    <div class="company-img"></div>
-                                    <div>
-                                        <p class="author">Chinara Ibadova</p>
-                                        <p class="proffesion">Tədqiqatçı</p>
-                                    </div>
-
+                            <div class="comment-owner">
+                                <div class="company-img"></div>
+                                <div>
+                                    <p class="author">Chinara Ibadova</p>
+                                    <p class="proffesion">Tədqiqatçı, Procter & Gamble</p>
                                 </div>
 
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="comment-box">
+                        <div class="author-img">
+                            <img src="./assets/img/maureen__1_.jpg" alt="">
+                        </div>
+                        <div class="comment-area">
+                            <i class="fa-solid fa-quote-left fa-lg"></i>
+                            <div class="single-comment">
+                                <p class="comment">Təhsil, hökumət və sənaye liderləri bütün dünyada tələbələrə işə
+                                    uyğunlaşdırılmış, çevik və əlçatan kurikulum təqdim etməklə texnoloji bacarıqlardakı
+                                    boşluğu aradan qaldırmaq üçün birlikdə işləmək fürsətinə malikdirlər.
+                                </p>
+                                <i class="fa-solid fa-quote-right fa-lg"></i>
+                            </div>
+                            <div class="comment-owner">
+                                <div class="company-img"></div>
+                                <div>
+                                    <p class="author">Chinara Ibadova</p>
+                                    <p class="proffesion">Tədqiqatçı, Procter & Gamble</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="comment-box">
+                        <div class="author-img">
+                            <img src="./assets/img/maureen__1_.jpg" alt="">
+                        </div>
+                        <div class="comment-area">
+                            <i class="fa-solid fa-quote-left fa-lg"></i>
+                            <div class="single-comment">
+                                <p class="comment">Təhsil, hökumət və sənaye liderləri bütün dünyada tələbələrə işə
+                                    uyğunlaşdırılmış, çevik və əlçatan kurikulum təqdim etməklə texnoloji bacarıqlardakı
+                                    boşluğu aradan qaldırmaq üçün birlikdə işləmək fürsətinə malikdirlər.
+                                </p>
+                                <i class="fa-solid fa-quote-right fa-lg"></i>
+                            </div>
+                            <div class="comment-owner">
+                                <div class="company-img"></div>
+                                <div>
+                                    <p class="author">Chinara Ibadova</p>
+                                    <p class="proffesion">Tədqiqatçı, Procter & Gamble</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -514,62 +318,22 @@
         </section>
 
         <div class="line"></div>
-
-        <section id="contact-us">
-            <div class="contact-us-area">
-                <div class="container">
-                    <div class="contact-text">
-                        <h1>Gəlin istedadı öz üstünlüyünə çevirmək haqqında danışaq</h1>
-                        <h5>Biznesinizi sürətli dəyişikliklərə necə hazırlaya biləcəyinizi öyrənmək üçün komandamızla
-                            əlaqə
-                            saxlayın.</h5>
-                    </div>
-                    <div class="btns">
-                        <a href="learn-more.html">Bizimlə əlaqə saxlayın</a>
-                        <a href="#">Planları müqayisə edin</a>
-                    </div>
-                    <a class="for-teams-btn" href="#">
-                        <span>125-dən az işçinin ixtisasını artırmaq?</span>
-                        <span>Komandalar üçün kurs əldə edin</span>
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <div class="line"></div>
-
         <section id="overview">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="box-area">
-                            <h3 data-uppercase-az>vebinar: <span class="web-name" data-uppercase-az>2024-cü ilin ən
-                                    Sürətlə Artan iş Bacarıqları</span>
-                            </h3>
-                            <p>İnkişaf edən bacarıqlar mənzərəsini formalaşdıran əsas tendensiyaları araşdırın.</p>
-                            <a href="#">İndi baxın <i class="fa-solid fa-arrow-right fa-sm"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="box-area">
-                            <h3 data-uppercase-az>İşləyən L&D Strategiyası ilə Dəyişikliklərə Naviqasiya</h3>
-                            <p>Dəyişiklikləri idarə etmək üçün beş addımlı öyrənmə strategiyasını əldə edin</p>
-                            <a href="#">Elektron kitab alın <i class="fa-solid fa-arrow-right fa-sm"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="box-area">
-                            <h3 data-uppercase-az>2024-cü ilin iş Bacarıqları Hesabatı</h3>
-                            <p>İşçilərin məhsuldarlığını artıran ən sürətlə inkişaf edən bacarıqları üzə çıxarın.</p>
-                            <a href="#">Hesabat alın <i class="fa-solid fa-arrow-right fa-sm"></i></a>
-                        </div>
-                    </div>
+                <div class="box-area">
+                    <h3 data-uppercase-az>Tam 2024 İş Bacarıqları Hesabatını endirin</span>
+                    </h3>
+                    <p>Süni intellekt, kibertəhlükəsizlik, liderlik və s. sahəsində ən sürətlə inkişaf edən bacarıqlara
+                        dair fikirlərlə müəssisənizin gələcəyi üçün əsaslandırılmış qərarlar qəbul edin.</p>
+                    <a href="#">Hesabat alın <i class="fa-solid fa-arrow-right fa-sm"></i></a>
                 </div>
             </div>
         </section>
+
+        <div class="line"></div>
     </main>
 
-
+    <!--Footer Section-->
     <footer class="primary-bg-color" style="background-image: url('./assets/img/bg/footer-bg.png');">
         <div class="footer-main footer-main1">
             <div class="container">
@@ -894,13 +658,32 @@
         </div>
 
     </footer>
-</body>
+    <!--Footer Section-->
 
-<!-- added swiper js -->
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- <a href="#top" id="back-to-top"><i class="fa fa-long-arrow-up"></i></a> -->
+
+</body>
+<!-- added bootstrap js -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+<script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- added jquery -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+<!-- added slick js -->
+<script src="./assets/slick-1.8.1/slick/slick.min.js"></script>
+<script src="./assets/slick-1.8.1/slick/slick.js"></script>
+
+<!-- added chart js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
 
 <!-- added custom js -->
 <script src="./assets/js/layout.js"></script>
-<script src="./assets/js/swiper.js"></script>
+<script src="./assets/js/chart.js"></script>
+<script src="./assets/js/global.js"></script>
+<script src="./assets/js/tab-menu.js"></script>
 
 </html>

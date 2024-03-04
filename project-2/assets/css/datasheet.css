@@ -3,28 +3,32 @@
 @import url('./common.css');
 
 
-ul {
+#pdf-area ul {
     color: var(--primary-9);
     margin: 20px 0 40px 30px;
 }
 
-ul li {
+#pdf-area ul li {
     list-style-type: initial;
 }
 
-ul li p,
-h2 {
+#pdf-area ul li p,
+#pdf-area h2 {
     color: var(--bs-white);
 }
 
-button{
+#pdf-area button {
     padding: 7px 20px;
     background: var(--primary-9);
     border-radius: var(--border-radius);
     color: var(--bs-white);
     font-size: var(--fs-0);
     transition: var(--transition-1);
+    margin-bottom: 30px;
 }
-button:hover{
+
+#pdf-area button:hover {
     background-color: var(--primary-7);
 }
+
+
