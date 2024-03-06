@@ -3,6 +3,7 @@
 @import url('./layout.css');
 @import url('./overview-box.css');
 @import url('./tab-menu.css');
+@import url('./comment.css');
 
 footer {
     font-family: var(--poppins);
@@ -35,41 +36,6 @@ footer {
     font-weight: 600;
 }
 
-#comments .comment-box{
-    padding: 20px;
-    display: flex !important;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-#comments .comment-box .author-img{
-    width: 200px;
-    height: 200px;
-    border: 1px solid var(--primary-9);
-    border-radius: var(--circle);
-    position: relative;
-}
-#comments .comment-box .author-img img{
-    border-radius: var(--circle);
-    width: 180px;
-    height: 180px;
-    object-fit: cover;
-    position: absolute;
-    top: 9px;
-    left: 9px;
-}
-#comments .comment-box .comment-area{
-    width: 50% !important;
-    margin: 0 !important;
-}
-#comments .comment-area .single-comment .comment {
-    font-size: var(--fs-3);
-}
-
-#comments .slick-prev:before, .slick-next:before{
-    font-size: 25px !important;
-    color: var(--primary-9);
-}
 
 .video-area {
     height: 20rem;

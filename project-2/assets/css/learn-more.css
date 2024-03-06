@@ -1,3 +1,7 @@
+@import url('./common.css');
+@import url('./layout.css');
+@import url('./reset.css');
+
 #learn-more,
 #learn-more h1 {
     color: var(--dark-theme);

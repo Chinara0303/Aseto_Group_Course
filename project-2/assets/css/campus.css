@@ -1,0 +1,25 @@
+@import url('./common.css');
+@import url('./layout.css');
+@import url('./reset.css');
+@import url('./adaptability.css');
+@import url('./contac-us.css');
+@import url('./overview-box.css');
+@import url('./learn-more.css');
+@import url('./brands.css');
+@import url('./comment.css');
+
+#feature .feature-box{
+    padding: 20px;
+    background-color: var(--bs-dark);
+    height: 30rem;
+    border-radius: var(--border-radius);
+}
+#feature .feature-box h4{
+    color: var(--bs-white);
+    margin-top: 30px;
+}
+#feature .feature-box p{
+    color: var(--bs-white);
+    margin-top: 20px;
+}
+
