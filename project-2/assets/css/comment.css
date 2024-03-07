@@ -34,3 +34,18 @@
     font-size: 25px !important;
     color: var(--primary-9);
 }
+
+@media (max-width:576px) {
+    #comments .comment-box{
+        display: initial !important;
+    }
+    #comments .comment-box .comment-area{
+        width: 100% !important;
+    }
+    #comments .comment-box .author-img{
+       margin: auto !important;
+    }
+    #comments .slick-arrow {
+        display: none !important;
+    }
+}

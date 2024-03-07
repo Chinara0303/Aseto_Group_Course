@@ -6,3 +6,11 @@
 @import url('./overview-box.css');
 @import url('./brands.css');
 @import url('./comment.css');
+
+#feature .feature-box .img{
+    margin-bottom: 20px;
+}
+
+#feature .feature-box h4{
+    color: var(--bs-white);
+}

@@ -2,6 +2,7 @@
 @import url('./reset.css');
 @import url('./faq.css');
 @import url('./common.css');
+@import url('./comment.css');
 
 
 h1 {
@@ -81,7 +82,8 @@ th[scope='row'] {
     font-weight: 400;
 }
 
-.fa-check {
+.fa-check,
+.fa-minus {
     color: var(--primary-9);
 }
 
@@ -101,18 +103,25 @@ th[scope='row'] {
 }
 
 @media (min-width:768px) and (max-width:1180px) {
-    .plan{
-        margin-top:20px !important;
+    .plan {
+        margin-top: 20px !important;
     }
-    .active-tr{
-        top: 6% !important;
+
+    .active-tr {
+        top: 7% !important;
+    }
+
+    table thead .tr th {
+        font-size: var(--fs-1);
     }
 }
+
 @media (max-width:576px) {
     table thead .tr th {
         font-size: var(--fs-1);
     }
-    .active-tr{
+
+    .active-tr {
         top: 8% !important;
     }
 }

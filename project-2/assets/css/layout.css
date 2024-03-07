@@ -61,6 +61,7 @@ header .main-navbar p,
 header .responsive-navbar a,
 header .responsive-navbar .navbar-link {
     color: var(--bs-white);
+    cursor: pointer;
 }
 
 header .main-navbar .navbar p {
@@ -224,7 +225,7 @@ header .top-area span {
     color: var(--bs-white);
     opacity: 0.9;
     margin-bottom: 6px;
-    font-size: var(--fs-3);
+    font-size: var(--fs-2);
 }
 
 .nav-icons {
@@ -407,7 +408,6 @@ footer .form-control {
     border-radius: 7px;
     border-color: var(--primary-9);
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-    width: 200px;
 }
 
 .form-control.border-white {
@@ -425,6 +425,10 @@ footer .form-control {
     color: var(--bs-white);
     outline: 0;
     box-shadow: none;
+}
+
+footer {
+    font-family: var(--poppins);
 }
 footer .text-primary{
     color: var(--primary-9) !important;
@@ -449,95 +453,6 @@ footer li{
     background-color: #ededf5;
     opacity: 1;
 }
-
-/* 
-footer .social-links {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 60%;
-    margin: 20px 0;
-}
-
-footer .social-links li {
-    border-radius: var(--circle);
-    background-color: var(--dark-bg);
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: var(--transition-1);
-    cursor: pointer;
-}
-
-footer ul li a,
-footer ul li a {
-    color: var(--text-color);
-    transition: var(--transition-1);
-}
-
-footer .social-links li:hover {
-    background-color: var(--primary-bg-color);
-}
-
-footer ul li:hover a,
-footer ul li:hover a {
-    color: var(--bs-white);
-}
-
-footer .contact-info li {
-    margin-bottom: 10px;
-}
-
-footer .contact-info li i {
-    margin-right: 10px;
-    color: var(--primary-bg-color);
-}
-
-footer .text-title {
-    margin-bottom: 30px;
-    color: var(--bs-white);
-    text-transform: uppercase;
-}
-
-footer form {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: var(--dark-bg);
-    height: 50px;
-    border: 1px solid transparent;
-    border-radius: var(--border-radius);
-}
-
-footer form button {
-    border-radius: var(--circle);
-    height: 40px;
-    width: 40px;
-    background-color: var(--primary-bg-color);
-    transition: var(--transition-1);
-}
-
-footer form button:hover {
-    background-color: var(--bs-white);
-    color: var(--primary-bg-color);
-}
-
-footer form input {
-    height: 40px;
-    background-color: var(--dark-bg);
-    color: var(--bs-white);
-}
-
-footer .newsletter-text {
-    font-size: var(--fs-0);
-    margin-top: 15px;
-}
-
-footer .copyright {
-    margin: auto;
-} */
 
 
 @media (max-width:576px) {

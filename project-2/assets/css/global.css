@@ -5,9 +5,6 @@
 @import url('./tab-menu.css');
 @import url('./comment.css');
 
-footer {
-    font-family: var(--poppins);
-}
 
 #overview .box-area {
     height: 13rem !important;
@@ -17,7 +14,7 @@ footer {
     padding: 20px;
     border: 1px solid var(--primary-9);
     border-radius: var(--border-radius);
-    height: 17rem;
+    height: 18rem;
     margin-top: 20px;
 }
 
@@ -42,19 +39,29 @@ footer {
 }
 
 #report-area h1,
-#report-area .subtitle{
+#report-area .subtitle {
     text-align: center;
     color: var(--bs-dark);
 }
-#report-area .tab-menu-heading{
+
+#report-area .tab-menu-heading {
     color: var(--bs-dark);
 }
-canvas{
+
+canvas {
     margin: 60px 0;
 }
-.content{
+
+.content {
     margin-top: 0 !important;
 }
-#report-area.section{
+
+#report-area.section {
     background-color: var(--bs-white);
+}
+
+@media (min-width: 768px) and (max-width: 1180px) {
+    .tab-menu {
+        flex-wrap: nowrap !important;
+    }
 }
