@@ -1,0 +1,39 @@
+@import url('./reset.css');
+@import url('./comment.css');
+@import url('./common.css');
+@import url('./layout.css');
+@import url('./adaptability.css');
+@import url('./learn-more.css');
+@import url('./contac-us.css');
+@import url('./overview-box.css');
+
+.first-link {
+    margin-bottom: 0;
+    display: block;
+}
+
+.second-link {
+    margin-top: 0;
+}
+
+#feature .feature-box .img {
+    margin-bottom: 20px;
+    border-radius: var(--border-radius);
+}
+
+#feature .feature-box .img img {
+    border-radius: var(--border-radius);
+}
+
+#feature .feature-box h4 {
+    color: var(--bs-white);
+}
+
+#feature .title {
+    font-size: var(--fs-0);
+}
+
+#learn-more .author,
+#learn-more .proffesion{
+    color: var(--bs-dark);
+}
