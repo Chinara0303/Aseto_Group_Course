@@ -130,7 +130,9 @@ section {
     align-items: center;
     padding: 10px;
     position: relative;
+    height: 6rem;
 }
+
 
 #intro .advertise-area .col-lg-4:not(:last-child) .area::after,
 #intro .advertise-area .col-lg-6:not(:last-child) .area::after {
@@ -256,7 +258,26 @@ h1 {
 }
 
 .learn-more-btn:hover {
-    color: var(--primary-9);
+    color: var(--primary-9) !important;
+}
+
+#search-catalog .btn-area{
+    text-transform: uppercase;
+    font-size: var(--fs-1);
+    background-color: var(--primary-bg-color);
+    padding: 15px;
+    width: 20%;
+    margin: 3rem auto;
+    border-radius: var(--border-radius);
+    position: relative;
+    transition: var(--transition-2);
+}
+#search-catalog .btn-area a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--bs-dark);
+    font-weight: 500;
 }
 
 @media (max-width:576px) {

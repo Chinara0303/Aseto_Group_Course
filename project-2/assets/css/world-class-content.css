@@ -8,6 +8,7 @@
 @import url('./contac-us.css');
 @import url('./overview-box.css');
 @import url('./expert-instruction.css');
+@import url('./comment.css');
 
 .btn-area{
    width: 50% !important;

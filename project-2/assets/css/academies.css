@@ -39,9 +39,12 @@
     margin-left: 15px;
     border-radius: var(--border-radius);
     transition: var(--transition-1);
+
 }
 
-
+#academies .academy .content{
+    height: 15rem;
+}
 #academies .academy .img img {
     border-radius: var(--border-radius);
 }
@@ -61,12 +64,13 @@
 #academies .academy .header {
     color: var(--dark-theme);
     font-weight: 500;
-    font-size: var(--fs-2);
+    font-size: var(--fs-1);
 }
 
 #academies .academy .text {
     font-size: var(--fs-1);
     margin-top: 10px;
+    height: 90px;
 }
 
 #academies .slick-dots {
@@ -107,4 +111,8 @@
     opacity: .55;
 }
 
-
+#academies .learn-more-btn{
+    margin: 0;
+    margin-top: 15px;
+    color: var(--bs-dark);
+}

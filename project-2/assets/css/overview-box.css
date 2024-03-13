@@ -1,16 +1,19 @@
-
 #overview .box-area {
     border: 1px solid var(--border-color);
     padding: 30px 20px 0;
     border-radius: var(--border-radius);
     height: 20rem;
 }
-#overview .box-area h3{
+
+#overview .box-area h4 {
     text-transform: uppercase;
+    height: 111px;
 }
-#overview .box-area .web-name{
+
+#overview .box-area .web-name {
     text-transform: capitalize;
 }
+
 #overview .box-area p {
     margin: 1.5rem 0 2rem 0;
 }
@@ -25,13 +28,13 @@
 }
 
 @media (max-width:576px) {
-    #overview .box-area{
+    #overview .box-area {
         margin-bottom: 10px;
     }
 }
 
-@media (min-width:768px) and (max-width:1180px){
-    #overview .box-area{
+@media (min-width:768px) and (max-width:1180px) {
+    #overview .box-area {
         margin-bottom: 10px;
     }
 }

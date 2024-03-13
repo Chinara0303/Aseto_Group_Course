@@ -12,7 +12,8 @@
 }
 
 #learn-more .form-area,
-#mastering-human-leadership .form-area {
+#mastering-human-leadership .form-area,
+#job-skill-2024 .form-area {
     border: 1px solid var(--border-color);
     padding: 10px;
     border-radius: var(--border-radius);
@@ -86,7 +87,8 @@ select:focus {
     display: inline-block;
 }
 
-#learn-more button {
+#learn-more button,
+#job-skill-2024 button {
     text-transform: uppercase;
     font-size: var(--fs-1);
     background-color: var(--primary-bg-color);
@@ -98,7 +100,8 @@ select:focus {
     margin: 3rem 11.8rem 0;
 }
 
-#learn-more button span {
+#learn-more button span,
+#job-skill-2024 button span {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -106,40 +109,24 @@ select:focus {
     font-weight: 500;
 }
 
-#learn-more button:hover {
+#learn-more button:hover,
+#job-skill-2024 button:hover {
     background: var(--bs-dark);
 }
 
-#learn-more button:hover span {
+#learn-more button:hover span,
+#job-skill-2024 button:hover span {
     color: var(--bs-white);
     position: relative;
     z-index: 4;
 }
 
-/* #learn-more button .btn-curve{
-    position: absolute;
-    right: -3px;
-    top: 0;
-    width: 12px;
-    height: 100%;
-    background: var(--dark-theme);
-    opacity: 0.2;
-    z-index: 0;
-    transform: skewX(-22deg);
-    transition: all .7s ease;
+.w-40{
+    width: 40% !important;
 }
-
-#learn-more button:hover .btn-curve {
-    opacity: 1;
-    right: 0;
-    width: 100%;
-    transform: skewX(0deg);
-    border-radius: 5px;
-    border-color:var(--primary-9);
-} */
-
 @media (max-width:576px) {
-    #learn-more button {
+    #learn-more button,
+    #job-skill-2024 button {
         margin: 3rem 8rem !important;
     }
 }

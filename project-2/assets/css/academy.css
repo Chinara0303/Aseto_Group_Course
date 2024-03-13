@@ -5,3 +5,7 @@
 @import url('./expert-instruction.css');
 @import url('./contac-us.css');
 @import url('./demand-skills.css');
+
+#intro .area{
+    height: 7rem;
+}
