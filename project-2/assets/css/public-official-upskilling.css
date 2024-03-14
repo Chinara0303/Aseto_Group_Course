@@ -7,3 +7,8 @@
 @import url('./partners.css');
 @import url('./compare-plans.css');
 @import url('./overview-box.css');
+
+.comment-area{
+    margin: 0;
+    padding: 0;
+}

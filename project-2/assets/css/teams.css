@@ -17,3 +17,6 @@
 .suggest span:first-child{
     font-weight: bold;
 }
+#search-catalog .btn-area{
+    width: 10% !important;
+}

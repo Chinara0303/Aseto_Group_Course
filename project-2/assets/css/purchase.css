@@ -1,6 +1,82 @@
 @import url('./layout.css');
 @import url('./reset.css');
 
+.main-navbar {
+    position: relative;
+}
+
+.main-navbar .right-area {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.main-navbar .right-area .dropdown {
+    margin-left: 40px;
+
+}
+
+.main-navbar .right-area .dropdown::before {
+    content: '';
+    top: -17px;
+    left: -20px;
+    width: 1px;
+    position: absolute;
+    height: 57px;
+    background-color: var(--border-color);
+}
+
+.main-navbar .right-area .dropdown span,
+.main-navbar .right-area .dropdown i {
+    color: var(--bs-white);
+    font-size: var(--fs-1);
+}
+
+.dropdown-item {
+    color: var(--bs-dark) !important;
+}
+
+.dropdown-menu {
+    min-width: initial !important;
+}
+
+.notification {
+    cursor: pointer;
+    position: relative;
+}
+
+.notification i {
+    transition: var(--transition-1);
+}
+
+.notification:hover i {
+    color: var(--primary-9) !important;
+}
+
+.right-area .dropdown-area li {
+    list-style-type: square;
+    margin-left: 35px;
+    color: var(--primary-9);
+    padding: 0 !important;
+}
+
+.right-area .dropdown-area p {
+    color: var(--bs-dark) !important;
+    display: block !important;
+}
+
+.right-area .notification-text {
+    text-align: center;
+}
+
+.right-area .notification-text p:first-child {
+    font-size: var(--fs-2);
+}
+.right-area .notification-text p:last-child {
+    font-size: var(--fs-0);
+    margin-top: 20px;
+}
+
 #plan {
     padding-block: var(--fs-10);
 }
@@ -219,33 +295,37 @@ select:focus {
     border: 1px solid var(--border-color);
     border-radius: var(--border-radius);
 }
-#plan .item{
+
+#plan .item {
     margin-top: 20px;
     font-size: .7rem;
     width: 50%;
 }
-#plan .item p:first-child{
+
+#plan .item p:first-child {
     margin-bottom: 10px;
 }
+
 .team-plan,
 .subscription-number,
-.total
- {
+.total {
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-size: var(--fs-0);
     margin: 15px 0;
 }
+
 .today-payment,
 .quarterly-payment,
-.annual-payment{
+.annual-payment {
     font-size: var(--fs-0);
 }
+
 .annual-payment div,
 .quarterly-payment div,
 .quarterly-payment p,
-.today-payment div{
+.today-payment div {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -255,8 +335,9 @@ select:focus {
 .quarterly-payment p:first-child {
     font-weight: 600;
 }
+
 .quarterly-payment,
-.annual-payment{
+.annual-payment {
     margin: 15px 0;
 }
 

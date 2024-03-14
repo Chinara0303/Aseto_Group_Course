@@ -72,6 +72,9 @@ table thead .tr {
 table thead .tr th {
     font-size: var(--fs-4);
 }
+td{
+    text-align: center;
+}
 
 .th {
     font-size: var(--fs-1);

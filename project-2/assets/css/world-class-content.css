@@ -10,10 +10,6 @@
 @import url('./expert-instruction.css');
 @import url('./comment.css');
 
-.btn-area{
-   width: 50% !important;
-}
-
 .css-btm-50 {
    bottom: 0 !important;
 }

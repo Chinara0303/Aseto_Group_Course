@@ -19,7 +19,7 @@ let currentIndex = 1;
 let totalPrice = 0;
 let todayPrice = 0;
 
-function calculateAnnual(){
+function calculateAnnual() {
     totalPrice = subscriptionNumberInput.value * teamPlanPrice;
     todayPrice = subscriptionNumberInput.value * teamPlanPrice;
 
@@ -30,9 +30,9 @@ function calculateAnnual(){
     todayPaymentPrice.innerText = `${todayPrice}`;
     quarterlyPaymentPrice.innerText = `${todayPrice}`;
 }
-function calculateQuarterly(){
+function calculateQuarterly() {
     totalPrice = subscriptionNumberInput.value * teamPlanPrice;
-    todayPrice = (subscriptionNumberInput.value * teamPlanPrice)/4;
+    todayPrice = (subscriptionNumberInput.value * teamPlanPrice) / 4;
 
     totals.forEach(total => {
         total.innerText = `${totalPrice}`;
@@ -47,9 +47,9 @@ annualRadioBtn.addEventListener("click", function () {
         quarterlyRadioBtn.classList.remove('active-radio');
         quarterlyPayment.classList.add('d-none');
         annualPayment.classList.remove('d-none');
-       calculateAnnual();
+        calculateAnnual();
     }
-    else{
+    else {
         calculateAnnual();
     }
 });
@@ -60,19 +60,19 @@ quarterlyRadioBtn.addEventListener("click", function () {
         annualRadioBtn.classList.remove('active-radio');
         quarterlyPayment.classList.remove('d-none');
         annualPayment.classList.add('d-none');
-        
-       calculateQuarterly();
+
+        calculateQuarterly();
     }
 });
 
 continueBtn.addEventListener('click', function () {
     if (subscriptionNumberInput.value !== "") {
-         subscriptionNumberArea.innerText = `x${subscriptionNumberInput.value}`;
-        
+        subscriptionNumberArea.innerText = `x${subscriptionNumberInput.value}`;
+
         if (quarterlyRadioBtn.classList.contains("active-radio")) {
             calculateQuarterly()
         }
-        if(annualRadioBtn.classList.contains("active-radio")){
+        if (annualRadioBtn.classList.contains("active-radio")) {
             calculateAnnual()
         }
         contents.forEach(content => {
@@ -80,14 +80,14 @@ continueBtn.addEventListener('click', function () {
                 content.classList.add('de-active-content');
             }
         });
-        
+
         progressBarItems.forEach(item => {
             if (item.getAttribute('data-index') == currentIndex) {
                 item.classList.remove('active-bar');
                 item.classList.add('checked');
             }
         });
-    
+
         currentIndex++;
         if (currentIndex > contents.length) {
             currentIndex = 1;
@@ -97,7 +97,7 @@ continueBtn.addEventListener('click', function () {
                 content.classList.remove('de-active-content');
             }
         });
-    
+
         progressBarItems.forEach(item => {
             if (item.getAttribute('data-index') == currentIndex) {
                 item.classList.add('active-bar');
@@ -107,16 +107,23 @@ continueBtn.addEventListener('click', function () {
     else {
         return;
     }
-    
+
 });
 
+$(function () {
+    $('[data-bs-toggle="dropdown"]').click(function () {
+        let dropdownEl = $(this).next();
+        dropdownEl.toggle("block");
+    });
 
+    $(document).on("click", function (e) {
+        if (!!!e.target.closest('[data-bs-toggle="dropdown"]')) {
+            let displayValue = $('.dropdown-menu').css("display");
+            if (displayValue === "block") {
+                $('.dropdown-menu').css("display", "none");
+                $('.dropdown-menu').css("transition", "all .4s");
+            }
+        }
+    })
+})
 
-// radioBtns.forEach(radioBtn => {
-//     radioBtn.addEventListener("click", function () {
-//         radioBtns.forEach(item => {
-//             item.classList.remove("active-radio");
-//         })
-//         radioBtn.classList.add('active-radio')
-//     })
-// });
